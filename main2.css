@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+.backgroundo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.lol2{
+    position: relative;
+    width: 80%;
+    height: 800px;
+    background-color: white;
+}
+
+#shit{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    left: 0px;
+}
