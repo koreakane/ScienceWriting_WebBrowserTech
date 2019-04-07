@@ -8,9 +8,9 @@ new fullScroll({
 var k = 0;
 
 function section1() {
-  // location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#1"
-  location.href =
-    "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#1";
+location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#1"
+//   location.href =
+//     "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#1";
 }
 
 function section2() {
@@ -21,9 +21,9 @@ function section2() {
     onlyol.style.opacity = "1";
     k++; //k =1
   } else {
-    // location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#2"
-    location.href =
-      "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#2";
+    location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#2"
+//     location.href =
+//       "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#2";
     k = 0;
     }
 }
@@ -46,9 +46,9 @@ function section3() {
     document.getElementById("section3_img1").style.opacity = "1";
     k++; //k=4
   } else {
-    // location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#3"
-    location.href =
-      "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#3";
+    location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#3"
+//     location.href =
+//       "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#3";
     k=0;
     }
 }
@@ -73,9 +73,9 @@ function section4() {
     document.getElementById("section4_img2").style.opacity = "1";
     k++; //k=4
   } else {
-    // location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#4"
-    location.href =
-      "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#4";
+    location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#4"
+//     location.href =
+//       "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#4";
     k=0;
     }
 }
@@ -100,9 +100,9 @@ function section5() {
       document.getElementById("section5_img2").style.opacity = "1";
       k++; //k=4
     } else {
-      // location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#5"
-      location.href =
-        "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#5";
+      location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#5"
+//       location.href =
+//         "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#5";
       k=0;
       }
   }
@@ -127,9 +127,9 @@ function section5() {
       document.getElementById("section6_img2").style.opacity = "1";
       k++; //k=4
     } else {
-      // location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#6"
-      location.href =
-        "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#6";
+      location.href="https://koreakane.github.io/ScienceWriting_WebBrowserTech/#6"
+//       location.href =
+//         "file:///C:/Users/nucle/Desktop/%EA%B2%8C%EC%9E%84/%EB%A7%9D%EA%B2%9C/index.html#6";
       k=0;
       }
   }
