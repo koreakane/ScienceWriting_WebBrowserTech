@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div id="main" class="scroll-container">
-		<section class="section1">
+		<section class="section1" onclick="section1()">
 			<div>
         <span>웹과 브라우저</span>
         <div id="subtitle">
@@ -16,31 +16,58 @@
         </div>					
 			</div>
 		</section>
-		<section class="section2">
+		<section class="section2" onclick="section2()">
 			<div>
-				<span>Page #2</span>				
+        <span>목차</span>
+        <ol id="onlyol" style="visibility: hidden;">
+          <li>웹과 브라우저</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Browser</li>
+        </ul>				
 			</div>
 		</section>
-		<section class="section3">
+		<section class="section3" onclick="section3()">
 			<div>
-				<span>Page #3</span>				
+        <span id="section3_id1">여러분이 보고 있는 웹</span>
+        <span id="section3_id2">무엇으로 이루어져 있을까?</span>		
+        <span id="section3_id3">어떤 원리로 구동될까?</span>	
+        <image id="section3_img1" src="http://div.or.kr/modules/index/template/img/www.jpg" ></image>						
 			</div>
 		</section>
-		<section class="section4">
+		<section class="section4" onclick="section4()">
 			<div>
-				<span>Page #4</span>				
+          <image id="section4_img1" src="https://cdn-images-1.medium.com/max/1096/1*28-1lYrYTQoLhi87mllgBw.png" ></image>
+          <span id="section4_id1">모든 웹의 기초</span>
+          <span id="section4_id2">HTML</span>		
+          <span id="section4_id3">웹의 뼈대</span>	
+          <image id="section4_img2" src="https://watermark.lovepik.com/photo/50048/8829.jpg_wh1200.jpg" ></image>		
 			</div>
 		</section>
-		<section class="section5">
-			<div>
-				<span>Page #5</span>				
-			</div>
-    </section>
-    <section class="section6">
+		<section class="section5" onclick="section5()">
         <div>
-          <span>Page #5</span>				
+            <image id="section5_img1" src="https://cdn.lynda.com/course/609030/609030-636402179425109240-16x9.jpg" ></image>
+            <span id="section5_id1">뼈만으로는 폼이 안난다</span>
+            <span id="section5_id2">CSS</span>		
+            <span id="section5_id3">웹의 피부</span>	
+            <image id="section5_img2" src="https://post-phinf.pstatic.net/MjAxNzExMTVfMjMg/MDAxNTEwNzA2MDgxODQy.ZQFiFxrdh23Jy-8X0DIYgZTS1_KGRymlIizGKm_cT3Qg.NFtSgdeKRYoZIPMb9R_SxD0qtpgFRgc-3NgDgXz4Usgg.JPEG/%ED%94%BC%EB%B6%80%EA%B5%AC%EC%84%B13%EB%8C%80%EC%84%B1%EB%B6%84%EC%BD%9C%EB%9D%BC%EA%B2%90%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B4%ED%9E%88%EC%95%8C%EB%A3%A8%EB%A1%A0%EC%82%B004.jpg?type=w1200" ></image>		
+        </div>
+    </section>
+    <section class="section6" onclick="section6()">
+        <div>
+            <image id="section6_img1" src="https://cdn-images-1.medium.com/max/1600/1*zWhOGf_PgX0nRTLZLmFpGg.png" ></image>
+            <span id="section6_id1">너를 움직이고 싶어</span>
+            <span id="section6_id2">Javascript</span>		
+            <span id="section6_id3">웹의 근육</span>	
+            <image id="section6_img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5iRgjra1Vs2k18DvcslVpKGq1oBCebVSxYKh0RCgGqdF1AdB" ></image>		
         </div>
       </section>
+      <section class="section7" onclick="section7()">
+          <div>
+              <span id="section7_id1">고맙습니다.</span>
+          </div>
+        </section>
 	</div>
 	<script src="full-page-scroll.js"></script>
 	<script src="main.js"></script>
